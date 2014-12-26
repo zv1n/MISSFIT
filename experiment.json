@@ -1,0 +1,153 @@
+{
+  "experiment": "MISSFIT",
+  "fullscreen": true,
+  "conditions": ["A","B","C"],
+  "sections": [
+    {
+      "name": "trial_1",
+      "subsections": [
+        {
+          "name": "study_jol",
+          "data": "trial_1:A",
+          "study_timer": "5000",
+          "order": "random:dependent",
+          "constraints": {
+            "jol_t1": {
+              "range": "0-100"
+            }
+          }
+        },
+        "instruction",
+        {
+          "name": "prediction",
+          "constraints": {
+            "prediction_t1": {
+              "range": "{{data.length}}"
+            }
+          }
+        },
+        {
+          "name": "study_jol",
+          "data": "trial_1:A",
+          "study_timer": "5000",
+          "order": "random:dependent",
+          "constraints": {
+            "jol_t1": {
+              "range": "0-100"
+            }
+          }
+        },
+        {
+          "name": "post_study_prediction",
+          "constraints": {
+            "post_study_prediction_t1": {
+              "range": "{{data.length}}"
+            }
+          }
+        },
+        {
+          "name": "recall",
+          "order": "random:dependent",
+          "data": "trial_1:A",
+          "constraints": {
+            "recall_t1": {
+              "match": "{{data.second}}"
+            }
+          }
+        },
+        {
+          "name": "postdiction",
+          "constraints": {
+            "postdiction_t1": {
+              "range": "{{data.length}}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "trial_2",
+      "subsections": [
+        "instruction",
+        {
+          "name": "prediction",
+          "constraints": {
+            "prediction_t2": {
+              "range": "{{data.length}}"
+            }
+          }
+        },
+        {
+          "name": "study_jol",
+          "data": "trial_2:A",
+          "study_timer": "5000",
+          "order": "random:dependent",
+          "constraints": {
+            "jol_t2": {
+              "range": "0-100"
+            }
+          }
+        },
+        { 
+          "name": "post_study_prediction",
+          "constraints": {
+            "post_study_prediction_t2": {
+              "range": "{{data.length}}"
+            }
+          }
+        },
+        {
+          "name": "recall",
+          "data": "trial_2:A",
+          "order": "random:dependent",
+          "constraints": {
+            "recall_t2": {
+              "match": "{{data.second}}"
+            }
+          }
+        },
+        {
+          "name": "postdiction",
+          "constraints": {
+            "postdiction_t2": {
+              "range": "{{data.length}}"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "data": {
+    "trial_1:A": [
+      {
+        "first": "elephant",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "mouse",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "breadbox",
+        "first_class": "small_word",
+        "first_circle": "large_circle",
+        "second": "giraffe",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "space station",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "astronut",
+        "second_class": "small_word",
+        "second_circle": "small_circle"
+      }
+    ],
+    "trial_1:B": [],
+    "trial_1:C": [],
+    "trial_2:A": [],
+    "trial_2:B": [],
+    "trial_2:C": []
+  }
+}
