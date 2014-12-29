@@ -6,60 +6,62 @@
     {
       "name": "trial_1",
       "subsections": [
-        {
-          "name": "study_jol",
-          "data": "trial_1:A",
-          "study_timer": "5000",
-          "order": "random:dependent",
-          "constraints": {
-            "jol_t1": {
-              "range": "0-100"
-            }
-          }
-        },
         "instruction",
         {
           "name": "prediction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "prediction_t1": {
-              "range": "{{data.length}}"
+            "prediction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         },
         {
           "name": "study_jol",
-          "data": "trial_1:A",
-          "study_timer": "5000",
+          "data": "trial_1",
           "order": "random:dependent",
+          "timers": {
+            "study-end": "5000"
+          },
           "constraints": {
-            "jol_t1": {
-              "range": "0-100"
+            "jol": {
+              "type": "range",
+              "value": "100"
             }
           }
         },
         {
           "name": "post_study_prediction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "post_study_prediction_t1": {
-              "range": "{{data.length}}"
+            "post_study_prediction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         },
         {
           "name": "recall",
           "order": "random:dependent",
-          "data": "trial_1:A",
+          "data": "trial_1",
           "constraints": {
-            "recall_t1": {
-              "match": "{{data.second}}"
+            "recall": {
+              "type": "match",
+              "value": "{{data.second}}"
             }
           }
         },
         {
           "name": "postdiction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "postdiction_t1": {
-              "range": "{{data.length}}"
+            "postdiction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         }
@@ -71,46 +73,59 @@
         "instruction",
         {
           "name": "prediction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "prediction_t2": {
-              "range": "{{data.length}}"
+            "prediction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         },
         {
           "name": "study_jol",
-          "data": "trial_2:A",
-          "study_timer": "5000",
+          "data": "trial_2",
           "order": "random:dependent",
+          "timers": {
+            "study-end": "5000"
+          },
           "constraints": {
             "jol_t2": {
-              "range": "0-100"
+              "type": "range",
+              "value": "100"
             }
           }
         },
         { 
           "name": "post_study_prediction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "post_study_prediction_t2": {
-              "range": "{{data.length}}"
+            "post_study_prediction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         },
         {
           "name": "recall",
-          "data": "trial_2:A",
+          "data": "trial_2",
           "order": "random:dependent",
           "constraints": {
-            "recall_t2": {
-              "match": "{{data.second}}"
+            "recall": {
+              "type": "match",
+              "value": "{{data.second}}"
             }
           }
         },
         {
           "name": "postdiction",
+          "iterations": 1,
+          "data": "trial_1",
           "constraints": {
-            "postdiction_t2": {
-              "range": "{{data.length}}"
+            "postdiction": {
+              "type": "range",
+              "value": "{{dataset.length}}"
             }
           }
         }
@@ -120,32 +135,58 @@
   "data": {
     "trial_1:A": [
       {
-        "first": "elephant",
+        "first": "1a-1",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "mouse",
+        "second": "1a-1",
         "second_class": "small_word",
         "second_circle": "large_circle"
       },
       {
-        "first": "breadbox",
-        "first_class": "small_word",
-        "first_circle": "large_circle",
-        "second": "giraffe",
-        "second_class": "large_word",
-        "second_circle": "small_circle"
-      },
-      {
-        "first": "space station",
+        "first": "1a-2",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "astronut",
+        "second": "1a-2",
         "second_class": "small_word",
-        "second_circle": "small_circle"
+        "second_circle": "large_circle"
       }
     ],
-    "trial_1:B": [],
-    "trial_1:C": [],
+    "trial_1:B": [
+      {
+        "first": "1b",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "1b",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "1b",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "1b",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      }
+    ],
+    "trial_1:C": [
+      {
+        "first": "1c",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "1c",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "1c",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "1c",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      }
+    ],
     "trial_2:A": [],
     "trial_2:B": [],
     "trial_2:C": []
