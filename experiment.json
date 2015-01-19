@@ -96,7 +96,7 @@
             }
           }
         },
-        { 
+        {
           "name": "post_study_prediction",
           "iterations": 1,
           "data": "trial_1",
@@ -128,43 +128,413 @@
               "value": "{{dataset.length}}"
             }
           }
-        }
+        },
+        "conclusion"
       ]
     }
-  ],
+    ],
+
   "data": {
     "trial_1:A": [
       {
-        "first": "1a-1",
+        "first": "einsteinium",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "1a-1",
+        "second": "molybdenum",
         "second_class": "small_word",
         "second_circle": "large_circle"
       },
       {
-        "first": "1a-2",
+        "first": "thirteenletterword",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "1a-2",
+        "second": "anotherreallybigword",
         "second_class": "small_word",
         "second_circle": "large_circle"
       }
     ],
     "trial_1:B": [
       {
-        "first": "1b",
+        "first": "racket",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "1b",
+        "second": "harmonica",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "luggage",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "button",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "toddler",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cigarette",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "leopard",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "pebble",
         "second_class": "small_word",
         "second_circle": "large_circle"
       },
       {
-        "first": "1b",
+        "first": "desktop",
         "first_class": "large_word",
         "first_circle": "large_circle",
-        "second": "1b",
+        "second": "bandage",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "window",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "kernel",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "engine",
+        "first_class": "small_word",
+        "first_circle": "large_circle",
+        "second": "droplet",
+        "second_class": "small_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "beaver",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "mustache",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "chandelier",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "shrimp",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "toilet",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "compass",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "scarecrow",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "ticket",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "coffin",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "rosebud",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "spear",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cork",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "bed",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "watch",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "sheep",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "bee",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "couch",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "key",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "sword",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "ant",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "broom",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "gem",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "swing",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "fig",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "rug",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "tooth",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "guy",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "pill",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "pig",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "stamp",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "desk",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "hook",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "wheel",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "knot",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "projector",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "tornado",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "bookcase",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "keyboard",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "shredder",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cabinet",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "printer",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "chapel",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "pillow",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "rocket",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "monitor",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "planet",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "safe",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "dune",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "dam",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "lion",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "jet",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "slide",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "fence",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "gym",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "igloo",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "truck",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "cabin",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "tower",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "hammer",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "kleenex",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "dollar",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "jellyfish",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "crayon",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "glasses",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "stapler",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "handcuff",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "dagger",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "sponge",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "envelope",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "chisel",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "flask",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "book",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "mug",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "brick",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "tie",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "robin",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "tack",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "scarf",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "jar",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "sock",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "glue",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cord",
         "second_class": "small_word",
         "second_circle": "large_circle"
       }
@@ -187,8 +557,411 @@
         "second_circle": "large_circle"
       }
     ],
-    "trial_2:A": [],
-    "trial_2:B": [],
-    "trial_2:C": []
+    "trial_2:A": [
+    {
+        "first": "helmet",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cassette",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      }
+    ],
+    "trial_2:B": [
+    {
+        "first": "helmet",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "cassette",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "basketball",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "license",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "thimble",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "dancer",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "hammock",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "tassel",
+        "second_class": "large_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "hydrant",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "clover",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "fridge",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "spider",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "paddle",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "centipede",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "briefcase",
+        "first_class": "small_word",
+        "first_circle": "large_circle",
+        "second": "tweezer",
+        "second_class": "small_word",
+        "second_circle": "small_circle"
+      },
+      {
+        "first": "flamingo",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "magnet",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "penguing",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "napkin",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "banister",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "locket",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "bucket",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "bullet",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "seat",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "check",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "oven",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "mint",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "tuba",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "leaf",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "cow",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "nail",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "bike",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "chip",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "pole",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "dice",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "table",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "bead",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "apron",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "trout",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "lamp",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "plug",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "kite",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "medal",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "hare",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "germ",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "goat",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "ring",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "cymbals",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "bathtub",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "walrus",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "museum",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "wheelchair",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "binder",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "laptop",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "umbrella",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "microwave",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "fountain",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "dragon",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "chimney",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "zoo",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "star",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "sky",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "wall",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "tank",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "pool",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "moon",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "field",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "boat",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "barn",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "fort",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "beach",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "diaper",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "lanyard",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "ornament",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "marble",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "flashlight",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "collar",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "remote",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "goggles",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "camera",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "feather",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "pencil",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "telephone",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "mask",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "leash",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "foot",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "disc",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "hand",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "straw",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "fork",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "tiara",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "quill",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "frog",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      },
+      {
+        "first": "cap",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "twig",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      }
+    ],
+    "trial_2:C": [
+    {
+        "first": "thirteenletterword",
+        "first_class": "large_word",
+        "first_circle": "large_circle",
+        "second": "anotherreallybigword",
+        "second_class": "small_word",
+        "second_circle": "large_circle"
+      }
+    ]
   }
 }

@@ -1,33 +1,33 @@
 .large_circle {
-  margin: auto;
-  margin-top: 100px;
-  text-align: center;
-  line-height: 500px;
+          margin: auto;
+          margin-top: 100px;
+          text-align: center;
+          line-height: 500px;
 
-  width: 500px;
-  height: 500px;
-  border-radius: 250px;
-  border: 1px solid black;
-}
+          width: 500px;
+          height: 500px;
+          border-radius: 250px;
+          border: 1px solid black;
+        }
 
-.small_circle {
-  margin: auto;
-  margin-top: 225px;
-  text-align: center;
-  line-height: 250px;
-  
-  width: 250px;
-  height: 250px;
-  border-radius: 125px; 
-  border: 1px solid black;
-}
+        .small_circle {
+          margin: auto;
+          margin-top: 200px;
+          text-align: center;
+          line-height: 300px;
+          
+          width: 300px;
+          height: 300px;
+          border-radius: 150px; 
+          border: 1px solid black;
+        }
 
 .large_word {
-  font-size: 18px;
+  font-size: 64px;
 }
 
 .small_word {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .pure-g {
