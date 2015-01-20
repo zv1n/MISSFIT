@@ -4,8 +4,8 @@
           text-align: center;
           line-height: 500px;
 
-          width: 500px;
-          height: 500px;
+          width: 600px;
+          height: 600px;
           border-radius: 250px;
           border: 1px solid black;
         }
@@ -23,19 +23,22 @@
         }
 
 .large_word {
-  font-size: 64px;
+  font-size: 48pt;
+  font-family: 'courier';
 }
 
 .small_word {
-  font-size: 16px;
+  font-size: 18pt;
+  font-family: 'courier';
 }
+
 
 .pure-g {
   font-family: 'courier';
 }
 
 #jol {
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 footer.cmef-buttons.timer-container {
